@@ -29,14 +29,13 @@ To write a program for copying the contents from one file to another file.
 Developed by: kanishka.v.s
 RegisterNumber: 22003409
 
-with open("File1.txt","r") as fp:
+wwith open("Myfile.txt","r") as fp:
     x = fp.read()
-with open("File2.txt","w") as fp1:
+with open("txt1.txt","a") as fp1:
     fp1.write(x)
 ```
 ### OUTPUT:
-![output](/output.png)
-
-
+![output](/output1.png)
+![output](/xxx.png)
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
